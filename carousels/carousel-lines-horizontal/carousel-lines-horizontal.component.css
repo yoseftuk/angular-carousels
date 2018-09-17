@@ -1,0 +1,77 @@
+@keyframes fade-in {
+  from {
+    opacity: 0
+  }
+  to {
+    opacity: 1
+  }
+}
+
+.yt-carousel {
+  top:0;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+.full {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.yt-line {
+  height: 10.1%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.yt-line:not(.show) {
+  display: none;
+}
+
+.yt-line.show {
+  animation: fade-in 1 1s ease;
+}
+
+.yt-line:nth-child(1) {
+  top: 0;
+}
+
+.yt-line:nth-child(2) {
+  top: 10%;
+}
+
+.yt-line:nth-child(3) {
+  top: 20%;
+}
+
+.yt-line:nth-child(4) {
+  top: 30%;
+}
+
+.yt-line:nth-child(5) {
+  top: 40%;
+}
+
+.yt-line:nth-child(6) {
+  top: 50%;
+}
+
+.yt-line:nth-child(7) {
+  top: 60%;
+}
+
+.yt-line:nth-child(8) {
+  top: 70%;
+}
+
+.yt-line:nth-child(9) {
+  top: 80%;
+}
+
+.yt-line:nth-child(10) {
+  top: 90%;
+}

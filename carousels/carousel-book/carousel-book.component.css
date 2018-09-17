@@ -1,0 +1,30 @@
+.yt-carousel-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.yt-carousel {
+  /*flex-grow: 1;*/
+  height: 100%;
+  width: 50%;
+  top:0;
+  position: absolute;
+  display: inline-block;
+  transform-origin: right;
+}
+
+.flip {
+  transform: scaleX(-1);
+}
+
+.yt-flex {
+  /*display: flex;*/
+}
+.b1 {
+  left:0;
+  z-index: 5;
+}
+.b2 {
+  right: 0;
+}

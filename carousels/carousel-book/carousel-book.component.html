@@ -1,0 +1,14 @@
+<div #container class="yt-carousel-container yt-flex"
+     [ngStyle]="{backgroundImage: 'url('+urls[(current + 1) % urls.length]+')',backgroundPosition: 'left', perspective: '1500px',
+     backgroundSize: size}">
+  <div class="yt-carousel b1" [ngStyle]="{transform: 'rotateY('+rotate+'deg)'}">
+  <div class="yt-carousel-container" [ngClass]="{flip: flip}"
+       [ngStyle]="{backgroundImage: 'url('+urls[listed]+') ', backgroundPosition: position,
+       backgroundSize: size,   filter: 'brightness('+brightness+'%)'}"
+  ></div>
+  </div>
+  <div class="yt-carousel b2"
+       [ngStyle]="{backgroundImage: 'url('+urls[current]+')', backgroundPosition: 'right',
+       backgroundSize: size}"
+  ></div>
+</div>
