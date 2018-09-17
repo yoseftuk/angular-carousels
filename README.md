@@ -11,8 +11,8 @@ For use, you just need to:
 
 **the full documentation below:**
 
- - [Book Carousel](/wiki/Book-Carousel)
- - [Bubbles Carousel](/wiki/Bubbles-Carousel)
- - [Horizontal Lines Carousel](/wiki/Horizontal-Lines-Carousel)
- - [Vertical Lines Carousel](/wiki/Vertical-Lines-Carousel)
- - [Waves Carousel](/wiki/Waves-Carousel)
+ - [Book Carousel](https://github.com/yoseftuk/angular-carousels/wiki/Book-Carousel)
+ - [Bubbles Carousel](https://github.com/yoseftuk/angular-carousels/wiki/Bubbles-Carousel)
+ - [Horizontal Lines Carousel](https://github.com/yoseftuk/angular-carousels/wiki/Horizontal-Lines-Carousel)
+ - [Vertical Lines Carousel](https://github.com/yoseftuk/angular-carousels/wiki/Vertical-Lines-Carousel)
+ - [Waves Carousel](https://github.com/yoseftuk/angular-carousels/wiki/Waves-Carousel)
