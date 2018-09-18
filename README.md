@@ -8,6 +8,8 @@ For use, you just need to:
  - Import the component 
  - Pass to him the urls of images that you want to have in
  - You are done! 
+ 
+ **[Watch it on Github Pages](https://yoseftuk.github.io/angular-carousels-examples/)**
 
 **the full documentation below:**
 
